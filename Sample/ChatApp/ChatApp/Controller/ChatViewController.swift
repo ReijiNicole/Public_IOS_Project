@@ -119,7 +119,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         if cell.userNameLabel.text == Auth.auth().currentUser?.email as! String {
 
             cell.messageLabel.backgroundColor = UIColor.flatGreen()
-            cell.messageLabel.layer.cornerRadius = 20
+            cell.messageLabel.layer.cornerRadius = 5
             cell.messageLabel.layer.masksToBounds = true
             
 
@@ -127,7 +127,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         } else {
 
             cell.messageLabel.backgroundColor = UIColor.flatBlue()
-            cell.messageLabel.layer.cornerRadius = 20
+            cell.messageLabel.layer.cornerRadius = 5
             cell.messageLabel.layer.masksToBounds = true
             
         }

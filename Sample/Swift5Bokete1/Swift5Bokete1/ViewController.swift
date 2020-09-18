@@ -12,7 +12,7 @@ import SwiftyJSON
 import SDWebImage
 import Photos
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate {
 
     @IBOutlet weak var odaiImageView: UIImageView!
     
@@ -44,9 +44,22 @@ class ViewController: UIViewController {
         
         getImage(keyword: "funny")
         
-        
+        searchTextField.delegate = self
+        commentTextView.delegate = self
         
     }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        searchTextField.resignFirstResponder()
+        
+        return true
+    }
+        
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        print("textFieldDidEndEditingが動きました。")
+    }
+    
         // 検索キーワードを元に画像を引っ張ってくる
         // pixer.com
         // API keys 2963093-768f9ffc11d874c5a568a82ee
@@ -139,4 +152,6 @@ class ViewController: UIViewController {
         
     }
 }
+
+
 
