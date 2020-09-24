@@ -172,7 +172,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = "Reiji Nicole Nohara";
+				ORGANIZATIONNAME = "X X X";
 				TargetAttributes = {
 					BBFF562024FABDED00731342 = {
 						CreatedOnToolsVersion = 11.6;
@@ -420,7 +420,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ReijiNicoleNohara.ChatApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XXX.ChatApp;
 				PRODUCT_NAME = ChatApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -439,7 +439,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ReijiNicoleNohara.ChatApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XXX.ChatApp;
 				PRODUCT_NAME = ChatApp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

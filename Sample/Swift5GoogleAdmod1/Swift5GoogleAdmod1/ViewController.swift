@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Swift5GoogleAdmod1
 //
-//  Created by Reiji Nicole Nohara on 2020/08/29.
-//  Copyright © 2020 Reiji Nicole Nohara. All rights reserved.
+//  Created by X X X on 2020/08/29.
+//  Copyright © 2020 X X X. All rights reserved.
 //
 
 import UIKit

@@ -124,7 +124,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = "Reiji Nicole Nohara";
+				ORGANIZATIONNAME = "X X X";
 				TargetAttributes = {
 					BBFF55FE24F953B800731342 = {
 						CreatedOnToolsVersion = 11.6;
@@ -364,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ReijiNicoleNohara.Swift5GoogleAdmod1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XXX.Swift5GoogleAdmod1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -383,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ReijiNicoleNohara.Swift5GoogleAdmod1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XXX.Swift5GoogleAdmod1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
